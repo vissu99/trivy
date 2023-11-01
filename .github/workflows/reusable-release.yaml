@@ -36,7 +36,7 @@ jobs:
           remove-haskell: 'true'
 
       - name: Cosign install
-        uses: sigstore/cosign-installer@a5d81fb6bdbcbb3d239e864d6552820420254494
+        uses: sigstore/cosign-installer@4b014e3cf19eef7b0be66ede0b1eafe5534db38d
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
